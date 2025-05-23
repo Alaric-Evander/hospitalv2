@@ -1,4 +1,5 @@
 Rapport d'Analyse Technologique : Application HospitalV2
+
 L'application est un système de gestion de patients, exploitant un ensemble de technologies modernes et éprouvées dans l'écosystème Java pour le développement d'applications web.
 
 Vue d'Ensemble de l'Architecture
