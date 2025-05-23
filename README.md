@@ -3,6 +3,7 @@ Rapport d'Analyse Technologique : Application HospitalV2
 L'application est un système de gestion de patients, exploitant un ensemble de technologies modernes et éprouvées dans l'écosystème Java pour le développement d'applications web.
 
 Vue d'Ensemble de l'Architecture
+
 L'application est construite sur le framework Spring Boot, qui simplifie considérablement la création d'applications Java autonomes et de qualité production. 
 Spring Boot, par sa nature, encourage une architecture en couches, typiquement :
 
@@ -15,6 +16,7 @@ Couche Service/Logique Métier (implicite dans ce cas, potentiellement intégré
 Couche d'Accès aux Données (Persistance) : Gérée par Spring Data JPA avec Hibernate comme fournisseur JPA sous-jacent.
 
 Technologies Détaillées
+
 1. Java
 Le langage de programmation principal utilisé est Java. C'est un langage robuste, orienté objet, et largement adopté pour les applications d'entreprise.
 
