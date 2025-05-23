@@ -127,6 +127,7 @@ Thymeleaf traite le template, remplaçant les expressions th:* par les données 
 Le HTML est renvoyé au navigateur de l'utilisateur, qui affiche la liste des patients stylisée avec Bootstrap.
 
 Conclusion
+
 L'application HospitalV2 est un exemple typique d'une application web Java moderne construite avec le framework Spring Boot.
 Elle tire parti de Spring Data JPA pour une interaction simplifiée avec la base de données, de Spring MVC pour la gestion des requêtes web, et de Thymeleaf avec Bootstrap pour une interface utilisateur dynamique et responsive. L'utilisation de Lombok contribue à la concision du code.
 Cette pile technologique est robuste, évolutive et bien adaptée pour le développement d'applications web de taille petite à moyenne, voire grande.
