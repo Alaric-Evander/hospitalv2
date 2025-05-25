@@ -15,7 +15,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
     <form method="post" th:action="@{save(page=${page},keyword=${keyword})}">
         <div>
             <label for="id">ID</label>
-            <input id="id" class="form-control" type="text" name="nom" th:value="${patient.id}">
+            <input id="id" disabled="true" class="form-control" type="text" name="nom" th:value="${patient.id}">
         </div>
         <div>
             <label for="nom">Nom</label>
