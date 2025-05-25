@@ -52,14 +52,16 @@ public class PatientController {
             return "formPatients";
         }
         patientRepository.save(patient);
-        return "redirect:/formPatients";
+        return "redirect:/index";
     }
 
     @GetMapping("/editPatient")
-    public String editPatient(Model model, Long id){
+    public String editPatient(Model model, Long id,String keyword, int page){
         Patient patient = patientRepository.findById(id).orElse(null);
         if(patient == null){throw   new RuntimeException("Patient not found");}
-        model.addAttribute("patient", new Patient());
+        model.addAttribute("patient", patient);
+        model.addAttribute("keyword",keyword);
+        model.addAttribute("page",page);
         return "editPatient";
     }
 }

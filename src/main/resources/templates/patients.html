@@ -35,7 +35,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
                         <a onclick="return confirm('etes vous sur ?')" th:href="@{delete(id=${p.id}, keyword=${keyword}, page=${currentPage})}" class="btn btn-danger"> <i class="bi bi-trash"></i></a>
                     </td>
                     <td>
-                        <a class="btn btn-success" th:href="@{editPatient(id=${p.id})}" class="btn btn-danger"> Edit</a>
+                        <a class="btn btn-success" th:href="@{editPatient(id=${p.id}, keyword=${keyword}, page=${currentPage})}" > Edit</a>
                     </td>
                 </tr>
                 </thead>
