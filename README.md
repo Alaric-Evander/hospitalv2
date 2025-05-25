@@ -140,4 +140,13 @@ Captures d'écran :
 ![image](https://github.com/user-attachments/assets/d9154a73-187f-4214-a114-fa1ad17740c8)
 
 
+Captures d'écran PARTIE2 : 
+![image](https://github.com/user-attachments/assets/91e7028f-a737-4569-a7fa-c96deb8bee23)
+![image](https://github.com/user-attachments/assets/0a23e5ca-a201-4442-b2e5-dbeff4f979ff)
+![image](https://github.com/user-attachments/assets/027b0a3d-3c15-462b-98a6-d49f45193213)
+![image](https://github.com/user-attachments/assets/c9973a2f-a70f-4333-9411-d35343b8e562)
+![image](https://github.com/user-attachments/assets/9e524dd2-a378-4cd8-b70b-0eb874cdadeb)
+
+
+
 
