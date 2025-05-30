@@ -18,19 +18,19 @@ Créer une application web en utilisant le framework Spring Boot , permettant de
 
 ## Structure du Projet
 #### 1. Entité : Patient
- -  Package : net.zerhouani.hospitalspringmvc.entities
+ -  Package : net.bousmara.hospitalv2.entities
  -  Annotations utilisées :
      *   @Entity : Pour la persistance JPA.
      *  @Data, @NoArgsConstructor, @AllArgsConstructor, @Builder : Via Lombok pour réduire le code boilerplate.
  -  Champs : id (auto-généré) - nom - dateNaissance - malade (boolean) - score
 #### 3. Repository : PatientRepository
- -  Package : net.zerhouani.hospitalspringmvc.repository
+ -  Package : net.bousmara.hospitalv2.repository
  -  Interface qui étend JpaRepository.
  -  Méthodes personnalisées :
      *  findByNomContains(String keyword, Pageable pageable)
      *  Requête personnalisée via JPQL : cherher(@Param("x") String keyword, Pageable pageable)
 #### 4. Contrôleur : PatientController
- -  Package : net.zerhouani.hospitalspringmvc.web
+ -  Package : net.bousmara.hospitalv2.web
  -  Gère les requêtes HTTP :
       * GET "/user/index"  : Affiche la liste paginée des patients.
       * GET "/admin/delete" : Supprime un patient par son ID (redirige vers /index).
@@ -38,7 +38,7 @@ Créer une application web en utilisant le framework Spring Boot , permettant de
       * GET "/admin/formPatients" : Formulaire de création
       * POST "/admin/save" : Enregistrement d’un nouveau ou mise à jour
       * GET "/admin/editPatient" : Modification d’un patient existant
-#### 5. Application principale : HospitalSpringMvcApplication
+#### 5. Application principale : hospitalv2Application
  -  Lance l’application Spring Boot.
  -  Implémente CommandLineRunner pour insérer des données de test à l’exécution :
          *  Insertion de trois patients dans la base H2 embarquée.
@@ -155,11 +155,9 @@ Sécurité :
 
 ![image](https://github.com/user-attachments/assets/76f10a42-6f82-4704-82ae-998f644f829b)
 ![image](https://github.com/user-attachments/assets/f7d348aa-7f07-469b-8013-d056edead784)
-![image](https://github.com/user-attachments/assets/d9f42d66-0e91-4ba3-a0ae-5bea2308de3e)
-![image](https://github.com/user-attachments/assets/1457c7a9-d260-4c2e-82b9-5594c959f698)
+
 
 ![image](https://github.com/user-attachments/assets/36800a70-9c29-4f42-a572-d8c67ea496e3)
-![image](https://github.com/user-attachments/assets/93c4f10b-2297-4680-af38-cea962934509)
 
 
 Captures d'écran PARTIE2 : 
@@ -167,16 +165,7 @@ Captures d'écran PARTIE2 :
 ![image](https://github.com/user-attachments/assets/0a23e5ca-a201-4442-b2e5-dbeff4f979ff)
 ![image](https://github.com/user-attachments/assets/027b0a3d-3c15-462b-98a6-d49f45193213)
 ![image](https://github.com/user-attachments/assets/c9973a2f-a70f-4333-9411-d35343b8e562)
-![image](https://github.com/user-attachments/assets/9e524dd2-a378-4cd8-b70b-0eb874cdadeb)
 
 
 
 
-
-
-
-
-
-## Conclusion
-Ce TP illustre parfaitement les bases de la création d’une application MVC avec Spring Boot , utilisant JPA , Thymeleaf et des outils modernes comme Bootstrap . Il s’agit d’un bon point de départ pour développer une application de gestion hospitalière plus complète, notamment en ajoutant des fonctionnalités CRUD et une sécurité robuste(Spring Security).
-En approfondissant certaines parties (tests, internationalisation, déploiement), cette application pourrait facilement être utilisée dans un contexte professionnel.
