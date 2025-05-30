@@ -8,11 +8,11 @@
         <version>3.5.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>net.zerhouani</groupId>
-    <artifactId>Hospital-SpringMVC</artifactId>
+    <groupId>net.bousmara</groupId>
+    <artifactId>Hospital-V2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Hospital-SpringMVC</name>
-    <description>Hospital-SpringMVC</description>
+    <name>Hospital-V2</name>
+    <description>Hospital-V2</description>
     <url/>
     <licenses>
         <license/>
